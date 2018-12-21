@@ -1,0 +1,96 @@
+body, html {height: 100%;
+ background-image: url('/styles/coding_dtvakc.jpg');
+    background-attachment: fixed;
+    background-origin: content-box;
+    background-size: cover; }
+img {
+    margin: auto;
+    width: 200px;
+    height: 80px;
+}
+header{
+   
+    height:  100%;
+   
+}
+.heder-container{
+   height:100%;
+   margin: auto;
+   padding: auto;
+
+clip-path: circle(115% at 0% 120%);
+shape-outside: circle(10% at 0% 50%) border-box;
+
+shape-margin: 1em;
+background-color: antiquewhite;
+}
+.centered{
+ 
+margin: auto;
+padding: auto;
+
+}
+
+main,
+.jumbotron{
+    background-color: antiquewhite;
+     height: 100%;
+    
+}
+main{
+    clip-path: circle(125% at 110% 120%);
+    shape-outside: circle(10% at 0% 50%) border-box;
+    
+    shape-margin: 1em;
+    background-color: antiquewhite;
+    text-align: right;
+    display: flex;
+    margin-bottom:0 auto;
+    justify-content: center;
+    width: 100%;
+}
+#ava{
+    width: 200px ;
+    height:200px ;
+    border-radius: 100%;
+    border:2px double #afabab;
+    -webkit-box-shadow:75px 45px 63px 0px #ddddddcb;
+    -moz-box-shadow:75px 45px 63px 0px #ddddddde ;
+    box-shadow:75px 45px 63px 0px #dddddda8 ;
+    margin: 0;
+   
+}
+
+   
+
+.image-conteiner{
+     align-items: center;
+     display:flex;
+    justify-content: flex-end;
+    margin-top: 5%;
+    
+    
+}
+.display-3{
+    margin-left: 7%;
+    margin-right: 10%
+}
+
+/* hr { 
+    position: absolute;
+    height:280px;
+    width:3px;
+    -webkit-transform: rotate(150deg);
+     -moz-transform: rotate(150deg);
+      -ms-transform: rotate(150deg);
+       -o-transform: rotate(150deg);
+       border: 3px solid #FF0000;
+       background-color: #FF0000;
+       top: 10px;
+       right: 200px;
+} */
+.block-info {
+    margin-left:20%;
+    text-align: center;
+    margin-top: 2%;
+}

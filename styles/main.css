@@ -1,5 +1,6 @@
+font-face{}
 body, html {height: 100%;
- background-image: url('/styles/coding_dtvakc.jpg');
+ background-image: url('coding_dtvakc.jpg');
     background-attachment: fixed;
     background-origin: content-box;
     background-size: cover; }
@@ -71,7 +72,7 @@ main{
     
     
 }
-.display-3{
+.display-1{
     margin-left: 7%;
     margin-right: 10%
 }
@@ -93,4 +94,30 @@ main{
     margin-left:20%;
     text-align: center;
     margin-top: 2%;
+}
+.my-info {
+    font-size: 2em;
+}
+ul {
+    list-style-type: none; /* Убираем маркеры у списка */
+    color: #800808cb;
+    font-size: 1.8em;
+    margin-left: 20%;
+    text-align: justify;
+   }
+/* li{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+} */
+span{
+    color: #000000cb;
+   ;
+}
+.display-4{
+    text-align: center;
+    color: #000000cb;
+}
+.qualification{
+    padding-left: 10px;
 }

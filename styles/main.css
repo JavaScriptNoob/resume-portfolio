@@ -1,4 +1,6 @@
-font-face{}
+*{
+    font-size:1vw;
+}
 body, html {height: 100%;
  background-image: url('coding_dtvakc.jpg');
     background-attachment: fixed;
@@ -19,7 +21,7 @@ header{
    margin: auto;
    padding: auto;
 
-clip-path: circle(115% at 0% 120%);
+clip-path: circle(130% at -10% 120%);
 shape-outside: circle(10% at 0% 50%) border-box;
 
 shape-margin: 1em;
@@ -39,7 +41,7 @@ main,
     
 }
 main{
-    clip-path: circle(125% at 110% 120%);
+    clip-path: circle(130% at 110% 120%);
     shape-outside: circle(10% at 0% 50%) border-box;
     
     shape-margin: 1em;
@@ -59,7 +61,8 @@ main{
     -moz-box-shadow:75px 45px 63px 0px #ddddddde ;
     box-shadow:75px 45px 63px 0px #dddddda8 ;
     margin: 0;
-   
+   max-width: 400px;
+   max-height:400px;
 }
 
    
@@ -68,11 +71,10 @@ main{
      align-items: center;
      display:flex;
     justify-content: flex-end;
-    margin-top: 5%;
-    
+    margin-top: 1%;
     
 }
-.display-1{
+.display-12{
     margin-left: 7%;
     margin-right: 10%
 }
@@ -96,12 +98,12 @@ main{
     margin-top: 2%;
 }
 .my-info {
-    font-size: 2em;
+    font-size: 1.4em;
 }
 ul {
     list-style-type: none; /* Убираем маркеры у списка */
     color: #800808cb;
-    font-size: 1.8em;
+    font-size: 1.4em;
     margin-left: 20%;
     text-align: justify;
    }
@@ -114,7 +116,7 @@ span{
     color: #000000cb;
    ;
 }
-.display-4{
+.display-44{
     text-align: center;
     color: #000000cb;
 }

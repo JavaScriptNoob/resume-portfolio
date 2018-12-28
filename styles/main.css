@@ -1,3 +1,5 @@
+
+
 *{
     font-size:1vw;
 }
@@ -36,7 +38,9 @@ padding: auto;
 main,
 .jumbotron{
     background-color: antiquewhite;
-     height: 100%;
+     height: auto;
+     max-height: 200%;
+     min-height:100%;
     
 }
 main{
@@ -55,9 +59,7 @@ main{
    
     border-radius: 100%;
     border:2px double #afabab;
-    -webkit-box-shadow:75px 45px 63px 0px #ddddddcb;
-    -moz-box-shadow:75px 45px 63px 0px #ddddddde ;
-    box-shadow:75px 45px 63px 0px #dddddda8 ;
+   
     margin: 0;
    max-width: 100%;
    max-height:auto;
@@ -124,4 +126,34 @@ span{
 .response {
     width: 30%;
     height: 30%;
+}
+@media screen and (max-width:740px){
+    *{
+        font-size: 2vw;
+    }
+    .heder-container{
+        
+        clip-path: circle(59.16% at 60.81% 45%);
+        shape-outside: circle(70% at 70% 70%) border-box;
+shape-margin: 1em;
+background-color: antiquewhite;
+    }
+    main{
+        clip-path: circle(59.16% at 40.81% 55%);
+        shape-outside: circle(70% at 70% 70%) border-box;
+    }
+    .image-conteiner{
+        justify-content: flex-start;
+        margin-top: 7%;
+    }
+    .block-info{
+margin-left: 0;
+    }
+    ul{
+    margin-left: 0;
+    
+    }
+    span{
+        font-size: 14px;
+    }
 }
